@@ -27,7 +27,7 @@
           <img id="personal-logo" src="./assets/logo.svg" alt="" />
         </figure>
         <ul class="nav__link--list">
-          <li class="nav__link">
+          <li class="nav__link" onclick="toggleModal()">
             <a
               href="#"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
@@ -36,7 +36,7 @@
           </li>
           <li class="nav__link">
             <a
-              href="#"
+              href="#projects"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
               >Projects</a
             >
@@ -70,14 +70,14 @@
           </p>
           <div class="social__list">
             <a
-              href="https://google.com"
+              href="https://www.linkedin.com/in/christine-sabbagh-4ba684212/"
               target="_blank"
               class="social__link click"
             >
               <i class="fa-brands fa-linkedin-in"></i>
             </a>
             <a
-              href="https://google.com"
+              href="https://github.com/c-sabbagh"
               target="_blank"
               class="social__link click"
             >
@@ -85,7 +85,6 @@
             </a>
             <a
               href="./assets/Christine Sabbagh Resume.pdf"
-              download
               target="_blank"
               class="social__link click"
             >
@@ -94,9 +93,11 @@
           </div>
         </div>
       </header>
-      <button class="mail__btn click" onclick="toggleModal()">
-        <i class="fa-solid fa-envelope"></i>
-      </button>
+      <a href="#">
+        <button class="mail__btn click" onclick="toggleModal()">
+          <i class="fa-solid fa-envelope"></i>
+        </button>
+      </a>
       <a href="#projects" class="scroll">
         <div class="scroll__icon click"></div>
       </a>
@@ -231,8 +232,8 @@
                   </p>
                   <div class="project__description--links">
                     <a
-                      href="
-                    "
+                      href="https://github.com/c-sabbagh"
+                      target="_blank"
                       class="project__description--link"
                     >
                       <i class="fa-brands fa-github"></i
@@ -274,8 +275,8 @@
                   </p>
                   <div class="project__description--links">
                     <a
-                      href="
-                    "
+                      href="https://github.com/c-sabbagh"
+                      target="_blank"
                       class="project__description--link"
                     >
                       <i class="fa-brands fa-github"></i
@@ -290,8 +291,7 @@
                   </div>
                 </div>
               </div>
-            </li>
-            <li class="project">
+            </li><li class="project">
               <div class="project__wrapper">
                 <img
                   src="./assets/blinker mockup.png"
@@ -317,8 +317,8 @@
                   </p>
                   <div class="project__description--links">
                     <a
-                      href="
-                    "
+                      href="https://github.com/c-sabbagh"
+                      target="_blank"
                       class="project__description--link"
                     >
                       <i class="fa-brands fa-github"></i
@@ -348,24 +348,28 @@
             <a
               href="#"
               class="footer__social--link link__hover-effect link__hover-effect--white"
+              target="_blank"
             >
               GitHub
             </a>
             <a
               href="#"
               class="footer__social--link link__hover-effect link__hover-effect--white"
+              target="_blank"
             >
               LinkedIn
             </a>
             <a
               href="#"
               class="footer__social--link link__hover-effect link__hover-effect--white"
+              onclick="toggleModal()"
             >
-              Email
+              Contact
             </a>
             <a
-              href="#"
+              href="./assets/Christine Sabbagh Resume.pdf"
               class="footer__social--link link__hover-effect link__hover-effect--white"
+              target="_blank"
             >
               Resume
             </a>

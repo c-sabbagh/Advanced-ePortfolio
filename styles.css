@@ -641,6 +641,8 @@ width = 80vw
 
 .shape {
     position: fixed;
+    fill: #d90707;
+    filter: invert(55%) sepia(64%) saturate(23) hue-rotate(-45deg) brightness(119%) contrast(86%);
 }
 
 .shape--0 {
